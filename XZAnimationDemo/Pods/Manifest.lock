@@ -1,0 +1,39 @@
+PODS:
+  - AGGeometryKit (1.2.4):
+    - AGGeometryKit/CALayerProperties (= 1.2.4)
+    - AGGeometryKit/UIViewProperties (= 1.2.4)
+  - AGGeometryKit+POP (0.1):
+    - AGGeometryKit+POP/Default (= 0.1)
+  - AGGeometryKit+POP/Default (0.1):
+    - AGGeometryKit (~> 1.0)
+    - pop (~> 1.0.4)
+  - AGGeometryKit/CALayerProperties (1.2.4)
+  - AGGeometryKit/UIViewProperties (1.2.4)
+  - Canvas (0.1.2)
+  - FLAnimatedImage (1.0.12)
+  - INTUAnimationEngine (1.4.2):
+    - INTUAnimationEngine/SpringSolver (= 1.4.2)
+  - INTUAnimationEngine/SpringSolver (1.4.2)
+  - pop (1.0.9)
+  - SDAutoLayout (2.1.7)
+
+DEPENDENCIES:
+  - AGGeometryKit+POP (~> 0.1)
+  - Canvas (~> 0.1.2)
+  - FLAnimatedImage (~> 1.0.12)
+  - INTUAnimationEngine (~> 1.4.2)
+  - pop (~> 1.0.9)
+  - SDAutoLayout (~> 2.1.7)
+
+SPEC CHECKSUMS:
+  AGGeometryKit: 2c2c39c9f99eb7a966f0aa16b2a97027dacc4761
+  AGGeometryKit+POP: 72c980191db0646c31bed0b1ffd571e05f9ad029
+  Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  INTUAnimationEngine: 3a7d63738cd51af573d16848a771feedea7cc9f2
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
+
+PODFILE CHECKSUM: adb43048fb84624527e69ba99db51531d3427c59
+
+COCOAPODS: 1.0.1

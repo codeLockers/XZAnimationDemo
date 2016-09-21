@@ -1,0 +1,10 @@
+platform :ios, '7.0'
+
+target 'XZAnimationDemo' do
+pod 'SDAutoLayout', '~> 2.1.7'
+pod 'pop', '~> 1.0.9'
+pod 'Canvas', '~> 0.1.2'
+pod 'INTUAnimationEngine', '~> 1.4.2'
+pod 'AGGeometryKit+POP', '~> 0.1'
+pod 'FLAnimatedImage', '~> 1.0.12'
+end
