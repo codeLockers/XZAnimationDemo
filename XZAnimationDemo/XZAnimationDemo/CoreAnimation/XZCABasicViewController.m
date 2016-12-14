@@ -28,10 +28,17 @@
 
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
     animation.duration = 1.0;
-    animation.fromValue = @1.5;
+    animation.fromValue = @1;
     animation.toValue = @(2.0);
     
+    
+//    CABasicAnimation *animation1 = [CABasicAnimation animationWithKeyPath:@"position.x"];
+//    animation1.duration = 1.0;
+//    animation1.fromValue = @0;
+//    animation1.toValue = @(200.0);
+//    
     [self.animationView.layer addAnimation:animation forKey:@"animation"];
+//    [self.animationView.layer addAnimation:animation1 forKey:@"animation1"];
 }
 
 @end

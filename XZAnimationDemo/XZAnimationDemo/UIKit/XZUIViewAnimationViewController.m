@@ -67,7 +67,9 @@
     [UIView beginAnimations:@"animation1" context:nil];
     [UIView setAnimationDuration:5];
     
-    self.animationView.transform = CGAffineTransformMakeScale(2.0, 2.0);
+    self.animationView.center = self.view.center;
+    
+    self.animationView.transform = CGAffineTransformMakeScale(2, 2);
     
     [UIView commitAnimations];
     

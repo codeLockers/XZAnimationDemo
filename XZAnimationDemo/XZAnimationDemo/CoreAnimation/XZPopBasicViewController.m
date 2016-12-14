@@ -28,15 +28,16 @@
 - (void)viewAnimation{
 
     POPBasicAnimation *animation = [POPBasicAnimation defaultAnimation];
-    animation.property = [POPAnimatableProperty propertyWithName:kPOPViewCenter];
+    animation.property = [POPAnimatableProperty propertyWithName:kPOPLayerPosition];
     animation.toValue = [NSValue valueWithCGPoint:CGPointMake(100, 100)];
     animation.duration = 2;
-    animation.beginTime = CACurrentMediaTime() + 1;
+    //delay
+    //animation.beginTime = CACurrentMediaTime() + 1;
     animation.completionBlock = ^(POPAnimation *anim, BOOL finished){
     
         NSLog(@"%@",[NSDate date]);
     };
-    [self.animationView pop_addAnimation:animation forKey:@"animation"];
+    [self.animationView.layer pop_addAnimation:animation forKey:@"animation"];
 }
 
 @end

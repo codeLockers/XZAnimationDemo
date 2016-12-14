@@ -78,8 +78,16 @@
             self.animationView.center = CGPointMake(150, 200);
             
         }];
-        [UIView addKeyframeWithRelativeStartTime:0.5 relativeDuration:0.5 animations:^{
+        [UIView addKeyframeWithRelativeStartTime:0.5 relativeDuration:0.2 animations:^{
             self.animationView.center = CGPointMake(200, 150);
+            
+        }];
+        [UIView addKeyframeWithRelativeStartTime:0.7 relativeDuration:0.1 animations:^{
+            self.animationView.center = CGPointMake(300, 250);
+            
+        }];
+        [UIView addKeyframeWithRelativeStartTime:0.8 relativeDuration:0.2 animations:^{
+            self.animationView.center = CGPointMake(200, 200);
             
         }];
         

@@ -31,7 +31,7 @@
     
     CATransition *transition = [CATransition animation];
     transition.subtype = kCATransitionFromRight;
-    transition.type = kCATransitionReveal;
+    transition.type = kCAAnimationRotateAuto;
     transition.duration = 1.0f;
     
     [self.animationView.layer addAnimation:transition forKey:@"animation"];

@@ -27,17 +27,10 @@
 
 - (void)viewAnimation{
 
-//    __block NSInteger value = 0;
-    
     POPCustomAnimation *animation1 = [POPCustomAnimation animationWithBlock:^BOOL(id target, POPCustomAnimation *animation) {
-//     
-//        NSLog(@"%f",animation.currentTime);
-//        NSLog(@"%f",animation.elapsedTime);
-//        
+
         CGFloat offset = 20 * animation.elapsedTime;
-        
-//        value += 0.01;
-//        
+
         self.animationView.center = CGPointMake(self.animationView.center.x+offset, self.animationView.center.y);
         
         NSLog(@"%f - %@",offset,NSStringFromCGPoint(self.animationView.center));
